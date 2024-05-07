@@ -6,7 +6,29 @@ body {
 
 }
 
+.haut{
+    display: flex;
+    justify-content:space-around;
+    justify-items: flex-end;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
 
+}
+.logo{
+
+    position: relative;
+}
+#main {
+    position: sticky;
+    background-position: center;
+    background-size: cover;
+    background-color: grey;
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+}
 
 #banner {
     position: relative;
@@ -16,12 +38,12 @@ body {
     top: 85%;
 }
 
-#fix{
-    background-position:center;
+#fix {
+    position: sticky;
+    background-position:bottom;
     background-size: contain;
     background-color: grey;
     position: absolute;
-    height: 80vh;
     width: 100%;
 }
 
@@ -42,7 +64,7 @@ nav {
 }
 
 ul {
-    display: flex;
+display: flex;
     gap: 1rem;
     list-style-type: none;
     justify-content: flex-end;
@@ -59,16 +81,16 @@ li {
     font-size: 1rem;
     padding: 0px 16px 0px 16px;
 }
-.action:hover{
+
+.action:hover {
     background-color: darkred;
 }
 
 .learn:hover {
-
-display: inline;
+    display: flex;
     background-color: darkred;
     position: relative;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
 }
@@ -82,6 +104,7 @@ a {
 }
 
 button {
+    position: relative;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 40px;
@@ -97,7 +120,8 @@ button {
     font-size: 0.875rem;
 
 }
-#footer  {
+
+#footer {
     width: 100%;
     margin: auto;
 }
