@@ -17,8 +17,8 @@ body {
 
 }
 .logo{
-
     position: relative;
+    max-width: 150px;
 }
 #main {
     position: sticky;
