@@ -6,28 +6,22 @@ body {
 
 }
 
-header{
-    background: url(./images/main-section.png);
-    position: fixed;
-    background-position: center;
-    background-size: cover;
-    max-height: 50%;
-    background-color: grey;
-    position: inherit;
-    height: 100vh;
-}
+
 
 #banner {
     position: relative;
+    height: auto;
     width: 100%;
     margin: auto;
     top: 85%;
 }
 
-#fix {
-    height: 100vh;
-    background-position: center;
-    background-size: auto;
+#fix{
+    background-position:center;
+    background-size: contain;
+    background-color: grey;
+    position: absolute;
+    height: 80vh;
     width: 100%;
 }
 
@@ -65,14 +59,18 @@ li {
     font-size: 1rem;
     padding: 0px 16px 0px 16px;
 }
+.action:hover{
+    background-color: darkred;
+}
 
 .learn:hover {
-    display: flex;
-    margin: auto;
+
+display: inline;
+    background-color: darkred;
     position: relative;
-    justify-self: unset;
     justify-content: center;
     align-items: center;
+
 }
 
 a {
@@ -98,4 +96,8 @@ button {
     font-weight: bold;
     font-size: 0.875rem;
 
+}
+#footer  {
+    width: 100%;
+    margin: auto;
 }
