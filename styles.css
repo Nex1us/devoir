@@ -32,16 +32,15 @@ body {
     position: absolute;
     height: 100vh;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    opacity: 0;
 }
 
 #conteneur {
 
-    position: sticky;
+    position: fixed;
     background-position: center;
     background-size: cover;
     background-color: grey;
-    position: absolute;
     height: 80vh;
     width: 100%;
 }
@@ -119,7 +118,10 @@ a {
     font-weight: 700;
     font-size: 1rem;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+}
 .un{
     display: flex;
     justify-content: center;
