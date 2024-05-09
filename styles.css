@@ -6,22 +6,24 @@ body {
 
 }
 
-.haut{
+.haut {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     justify-items: flex-end;
     align-items: center;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 
 }
-.logo{
+
+.logo {
     position: relative;
     max-width: 150px;
 }
+
 #main {
-    position: sticky;
+    position: absolute;
     background-position: center;
     background-size: cover;
     background-color: grey;
@@ -29,26 +31,6 @@ body {
     height: 80vh;
     width: 100%;
 }
-
-#banner {
-    position: relative;
-    height: auto;
-    width: 100%;
-    margin: auto;
-    top: 85%;
-}
-
-#fix {
-    position: sticky;
-    background-position:bottom;
-    background-size: contain;
-    background-color: grey;
-    position: absolute;
-    width: 100%;
-}
-
-
-
 nav {
     padding: 0;
     margin: 0;
@@ -64,11 +46,11 @@ nav {
 }
 
 ul {
-display: flex;
+    display: flex;
     gap: 1rem;
     list-style-type: none;
     justify-content: flex-end;
-    font-weight: 400;
+    font-weight: 700;
 
 }
 
@@ -76,12 +58,13 @@ li {
     position: relative;
     align-items: center;
     margin: auto;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     font-size: 1rem;
     padding: 0px 16px 0px 16px;
 }
-button{
+
+button {
     position: relative;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -98,31 +81,34 @@ button{
     font-size: 0.875rem;
 
 }
-
-.action:hover {
+button:hover {
     background-color: darkred;
 }
 
-.learn{
+.learn {
     margin: auto;
     display: flex;
-    background-color: darkred;
-    position: relative;
-    justify-content: space-evenly;
+    top: 440px;
+    width: 240px;
+    height: 63px;
+    font-weight: bold;
+    justify-content: center;
     align-items: center;
-
 }
 
 a {
     color: white;
     text-decoration: none;
     padding: 16px;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1rem;
 }
+main{
+    display: block;
+    position: relative;
 
-
-#footer {
+    top: 700px;
     width: 100%;
-    margin: auto;
+    height: 100%;
+    justify-content: center;
 }
