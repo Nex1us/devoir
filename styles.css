@@ -81,29 +81,7 @@ li {
     font-size: 1rem;
     padding: 0px 16px 0px 16px;
 }
-
-.action:hover {
-    background-color: darkred;
-}
-
-.learn:hover {
-    display: flex;
-    background-color: darkred;
-    position: relative;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    padding: 16px;
-    font-weight: 400;
-    font-size: 1rem;
-}
-
-button {
+button{
     position: relative;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -120,6 +98,29 @@ button {
     font-size: 0.875rem;
 
 }
+
+.action:hover {
+    background-color: darkred;
+}
+
+.learn{
+    margin: auto;
+    display: flex;
+    background-color: darkred;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
 
 #footer {
     width: 100%;
