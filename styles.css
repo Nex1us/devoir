@@ -117,7 +117,6 @@ button:hover {
     margin: auto;
     top: 400px;
     left: 670px;
-    width: 165px;
     height: 55px;
     font-weight: bold;
     justify-content: center;
@@ -176,8 +175,6 @@ a {
     margin-left: 151px;
 }
 
-.phrase {}
-
 .phrase,
 .Adam {
     display: flex;
@@ -188,7 +185,6 @@ a {
     align-items: center;
 
 }
-
 article {
     display: flex;
     position: absolute;
@@ -210,6 +206,7 @@ article {
     flex-direction: row;
     margin-left: 0px;
     zoom: 0.8;
+    left: 180px;
 
 
 }
@@ -229,37 +226,50 @@ article {
     border: solid 12px;
     background-position: right;
     background-position: bottom;
+    
 }
 
 .texte {
+    display: block;
     position: relative;
     color: black;
     text-decoration: underline red;
     justify-content: center;
     align-items: center;
-    left: 655px;
+    left: 900px;
     bottom: 400px;
-
 }
-
 .tever {
+    display: inline;
     position: relative;
-    right: 380px;
+    right: 230px;
     top: 300px;
     color: black;
 }
 p{
     color: rgba(0, 0, 0, 0.678);
-    
+    width: 300px;
+    height: 56px;
 }
 #learn{
-    display: flex;
+
     position: relative;
-    top: 460px;
-    right: 550px;
+    width: 500px;
+    top: 430px;
+    right: 500px;
+
 }
-
-
+.mount{
+    display: inline;
+    position: relative;
+    right: 360px;
+    top: 330px;
+    color: black;
+}
+#learnm {
+    position: relative;
+    top: 20px;
+}
 footer {
     display: block;
 }
