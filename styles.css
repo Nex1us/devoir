@@ -280,16 +280,39 @@ p{
 
 .second{
     display: flex; 
-    position: relative;
 }
 #bg{
-    position: relative;
+    position:relative ;
     top: 2100px;
+    width: 145%;
+    height: 85vh;
 }
-.explore, .diremite{
+#explore{
     position: relative;
-    color: black;
-    top: 1400px;
+    top: 2300px;
+    right: 200px;
+    color: white !important;
+}
+.world{
+    color: white;
+}
+.learnn{
+    position: relative;
+    unicode-bidi: isolate;
+    position: absolute;
+    margin: auto;
+    top: 2700px;
+    right: 300px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#destination{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 footer {
     display: block;
