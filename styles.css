@@ -2,15 +2,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
-
-    font-size: 100%;
-
 }
 
 
 .haut {
     display: flex;
-    position: static;
     justify-content: space-around;
     justify-items: flex-end;
     align-items: center;
@@ -22,14 +18,14 @@ body {
 
 .logo {
     position: relative;
-    max-width: 150px;
+
 }
 
 header {
     background-color: var(#191919);
 }
 
-h1, h2{
+h1, .gift{
     position:relative ;
     display: flex;
     margin: auto;
@@ -43,7 +39,7 @@ h1, h2{
 h1{
     font-size: 20px;
 }
-h2{
+.gift{
     font-size: 40px;
 }
 br{
@@ -59,15 +55,12 @@ br{
 }
 #main {
 
-    display: block;
+    display: flex;
     position: fixed;
-    background-position: center;    
     background-color: grey;
-    height: 85vh;
     width: 100%;
     opacity: 1;
 }
-
 
 ul {
     display: flex;
@@ -134,69 +127,90 @@ a {
     font-size: 1rem;
 }
 
-main {
-    display: block;
-    flex-direction: column;
-}
+
 
 .un {
-    display: block;
+    display: inline;
+    margin: 0;
+    padding: 0;
     justify-content: center;
     align-items: flex-start;
+    width: 100%;
+    color: lightgrey;
+    background-color: lightgrey;
+    margin: 0;
 }
 
 .sandler{
     display: flex;
     position: absolute;
+    padding: auto;
     top: 1200px;
     height: 30%;
     width: 100%;
-    border: solid 1px white;
-    background-color: white;
-    color: white;
+    background-color: lightgrey;
+    padding: 0px 0px 0px 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+
 }
-h3,h4 {
+.quote{
+    display: flex;
+    margin-top: 50px;
+    padding: 0px 50px 0px 50px;
+    width: 8%;
+    height: 50%;
+}
+.phrase{
+    margin-right: 20px;
+}
+.phrase, .Adam {
     display: flex;
     position: relative;
     color: grey;
     font-weight: normal;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    
 }
-
-#event {
-    position: absolute;
+article {
+display: flex;
+position: absolute;
+    background-color: lightgrey;
+    align-content: space-evenly;
     width: 100%;
-    top: 1350px;
+    height: 100%;
+    top: 1430px;
 }
-
-.learndeux {
-    margin: auto;
-    display: flex;
-    top: 2305px;
-    width: 280px;
-    height: 70px;
-    font-weight: bold;
+#photo{
+    position: relative;
     justify-content: center;
-    align-items: center;
-    left: 180px;
-}
-
-.learntrois {
+    align-items: center ;
+    align-content: center;
+    flex-direction: row;
     margin: auto;
-    display: flex;
-    top: 2305px;
-    width: 280px;
-    height: 70px;
-    font-weight: bold;
+
+
+}
+.photo{
+    position: relative;
     justify-content: center;
-    align-items: center;
-    right: 180px;
+    align-items: center ;
+    flex-direction: row;
+margin: auto;
 }
 
-.learndeux .learntrois {
-    align-items: space-around;
-
+}
+footer{
+    display: block;
+}
+#bg{
+    display: flex;
+    position: absolute;
+    bottom: 0px;   
+    width: 100%;
+    top: 3000px;
 }
