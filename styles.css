@@ -272,10 +272,24 @@ p{
     top: 325px;
     color: black;
 }
-#learnm {
+#learnm  {
     position: relative;
     top: 30px;
     left: 20px;
+}
+
+.second{
+    display: flex; 
+    position: relative;
+}
+#bg{
+    position: relative;
+    top: 2100px;
+}
+.explore, .diremite{
+    position: relative;
+    color: black;
+    top: 1400px;
 }
 footer {
     display: block;
