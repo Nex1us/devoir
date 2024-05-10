@@ -254,30 +254,33 @@ p{
 #learn{
 
     position: relative;
-    width: 500px;
-    top: 430px;
-    right: 500px;
+    unicode-bidi: isolate;
+    position: absolute;
+    margin: auto;
+    bottom: 133px;
+    left: 300px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
 }
 .mount{
     display: inline;
     position: relative;
     right: 360px;
-    top: 330px;
+    top: 325px;
     color: black;
 }
 #learnm {
     position: relative;
-    top: 20px;
+    top: 30px;
+    left: 20px;
 }
 footer {
     display: block;
 }
-
-#bg {
-    display: flex;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
+#footer{
+    position:relative;
     top: 3000px;
 }
