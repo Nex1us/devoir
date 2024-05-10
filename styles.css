@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
-    height: 500vh;
+
     font-size: 100%;
 
 }
@@ -10,6 +10,7 @@ body {
 
 .haut {
     display: flex;
+    position: static;
     justify-content: space-around;
     justify-items: flex-end;
     align-items: center;
@@ -23,10 +24,41 @@ body {
     position: relative;
     max-width: 150px;
 }
-header{
+
+header {
     background-color: var(#191919);
 }
+
+h1, h2{
+    position:relative ;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    top: 200px;
+    color: darkolivegreen;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 40px;
+}
+br{
+    border: darkolivegreen solid 1px ;
+    position:relative ;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    top: 200px;
+}
 #main {
+
     display: block;
     position: fixed;
     background-position: center;    
@@ -35,7 +67,6 @@ header{
     width: 100%;
     opacity: 1;
 }
-
 
 
 ul {
@@ -67,34 +98,36 @@ button {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    background-color: #e42646;
+    background-color: green;
     text-transform: uppercase;
     color: white;
     font-weight: 700;
     font-size: 0.875rem;
-    border: #e42646;
+    border: green;
 }
 
 button:hover {
-    background-color: darkred;
-    border: darkred;
+    background-color: darkgreen;
+    border: darkgreen;
 
 }
 
 .learn {
-    position: fixed;
+    unicode-bidi: isolate;
+    position: absolute;
     margin: auto;
-    display: inline;
-    top: 280px;
+    top: 400px;
+    left: 670px;
     width: 165px;
     height: 55px;
     font-weight: bold;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 a {
-    color: white;
+    color: darkolivegreen;
     text-decoration: none;
     padding: 16px;
     font-weight: 700;
@@ -112,16 +145,31 @@ main {
     align-items: flex-start;
 }
 
-#banner {
+.sandler{
+    display: flex;
     position: absolute;
-    width: 100%;
     top: 1200px;
+    height: 30%;
+    width: 100%;
+    border: solid 1px white;
+    background-color: white;
+    color: white;
+}
+h3,h4 {
+    display: flex;
+    position: relative;
+    color: grey;
+    font-weight: normal;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 #event {
     position: absolute;
     width: 100%;
-    top: 1500px;
+    top: 1350px;
 }
 
 .learndeux {
@@ -152,4 +200,3 @@ main {
     align-items: space-around;
 
 }
-
