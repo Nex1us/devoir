@@ -35,7 +35,7 @@ h1,
     align-items: center;
     align-content: space-around;
     top: 200px;
-    color: darkolivegreen;
+    color: #ffffff;
 }
 
 h1 {
@@ -99,17 +99,19 @@ button {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    background-color: green;
+    background-color: #fb2056;
     text-transform: uppercase;
     color: white;
     font-weight: 700;
     font-size: 0.875rem;
-    border: green;
+    border: #fb2056;
 }
 
 button:hover {
-    background-color: darkgreen;
-    border: darkgreen;
+    background-color: #da1c4b;
+
+    border: #da1c4b;
+
 
 }
 
@@ -127,7 +129,7 @@ button:hover {
 }
 
 a {
-    color: darkolivegreen;
+    color: #ffffff;
     text-decoration: none;
     padding: 16px;
     font-weight: 700;
