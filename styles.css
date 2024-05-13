@@ -47,7 +47,7 @@ h1 {
 }
 
 br {
-    border: darkolivegreen solid 1px;
+    border: #da1c4b solid 1px;
     position: relative;
     display: flex;
     margin: auto;
