@@ -186,7 +186,7 @@ a {
 
 }
 
-article {
+.aun {
     display: flex;
     position: absolute;
     background-color: lightgrey;
@@ -300,14 +300,15 @@ position: relative;
     color: white;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     position: relative;
     height: 100%;
-    width: 100%;
+    width: 60%;
 }
 
 .learnn {
     position: relative;
-bottom: 600px;
+bottom: 1200px;
     left: 20px;
 }
 
@@ -326,9 +327,27 @@ footer {
     position: relative;
     top: 3000px;
 }
-
-.sky {
+.tours{
+    position: relative;
+    justify-content: flex-start;
+    color: black;
+    top: 2800px;
+    right: 700px;
+}
+.velo{
     display: flex;
     position: relative;
-    top: 3000px;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    top: 2500px ;
+    right: 500px;
+}
+#skyeur{
+    display: inline-block;
+    position: relative;
+    height: 224px;
+    width: 359px;
+    margin: 20px;
 }
