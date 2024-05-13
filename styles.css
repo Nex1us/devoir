@@ -185,6 +185,7 @@ a {
     align-items: center;
 
 }
+
 article {
     display: flex;
     position: absolute;
@@ -207,7 +208,7 @@ article {
     margin-left: 0px;
     zoom: 0.8;
     left: 180px;
-
+    bottom: 200px;
 
 }
 
@@ -218,6 +219,7 @@ article {
     flex-direction: row;
     margin: auto;
     zoom: 0.8;
+    bottom: 200px;
 }
 
 .photo,
@@ -226,7 +228,7 @@ article {
     border: solid 12px;
     background-position: right;
     background-position: bottom;
-    
+
 }
 
 .texte {
@@ -239,85 +241,94 @@ article {
     left: 900px;
     bottom: 400px;
 }
+
 .tever {
     display: inline;
     position: relative;
     right: 230px;
-    top: 300px;
+    top: 160px;
     color: black;
 }
-p{
+
+p {
     color: rgba(0, 0, 0, 0.678);
     width: 300px;
     height: 56px;
 }
-#learn{
 
+#learn {
     position: relative;
-    unicode-bidi: isolate;
-    position: absolute;
-    margin: auto;
-    bottom: 133px;
-    left: 300px;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    top: 30px;
+    left: 20px;
 
 }
-.mount{
+
+.mount {
     display: inline;
     position: relative;
     right: 360px;
-    top: 325px;
+    top: 160px;
     color: black;
 }
-#learnm  {
+
+#learnm {
     position: relative;
     top: 30px;
     left: 20px;
 }
 
-.second{
-    display: flex; 
+.second {
+    display: flex;
 }
-#bg{
-    position:relative ;
+
+#bg {
+    display: block;
+    position: absolute;
     top: 2100px;
-    width: 145%;
+    width: 100%;
     height: 85vh;
 }
-#explore{
-    position: relative;
-    top: 2300px;
-    right: 200px;
+
+#explore {
+position: relative;
+    top: 2000px;
+    left: 800px;
     color: white !important;
 }
-.world{
+
+.world, .explore {
     color: white;
-}
-.learnn{
+    display: flex;
+    flex-direction: column;
     position: relative;
-    unicode-bidi: isolate;
-    position: absolute;
-    margin: auto;
-    top: 2700px;
-    right: 300px;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    height: 100%;
+    width: 100%;
 }
-#destination{
+
+.learnn {
+    position: relative;
+bottom: 600px;
+    left: 20px;
+}
+
+#destination {
     display: flex;
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 footer {
     display: block;
 }
-#footer{
-    position:relative;
+
+#footer {
+    position: relative;
+    top: 3000px;
+}
+
+.sky {
+    display: flex;
+    position: relative;
     top: 3000px;
 }
