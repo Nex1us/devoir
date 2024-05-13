@@ -35,7 +35,7 @@ h1,
     align-items: center;
     align-content: space-around;
     top: 200px;
-    color: darkolivegreen;
+    color: #ffffff;
 }
 
 h1 {
@@ -87,74 +87,87 @@ button {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    background-color: green;
+    background-color: #fb2056;
     text-transform: uppercase;
     color: white;
     font-weight: 700;
     font-size: 0.875rem;
-    border: green;
+    border: #fb2056;
 }
 
 button:hover {
-    background-color: darkgreen;
-    border: darkgreen;
+    background-color: #da1c4b;
+
+    border: #da1c4b;
+
 
 }
-article{
+
+article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 49px;
 }
-.mission{
+
+.mission {
     display: inline;
     position: relative;
     top: 500px;
 }
-p{
+
+p {
     width: 60%;
     color: #808285;
 
 }
-br{
+
+br {
     margin-bottom: 20px;
     max width: 100%;
 }
-.cascade{
+
+.cascade {
     display: flex;
     position: relative;
-    height:  350px;
+    height: 350px;
     width: 100%;
     top: 250px;
     left: 800px;
     filter: brightness(105%) contrast(96%) saturate(74%) blur(0px) hue-rotate(347deg);
     border-radius: 4px 4px 4px 4px;
-    box-shadow: 10px 10px 0 1px rgba(0,0)
+    box-shadow: 10px 10px 0 1px rgba(0, 0)
 }
-.exp{
+
+.exp {
     position: relative;
     top: 300px;
     width: 55%;
 }
-.classe{
+
+.classe {
     display: flex;
     align-items: center;
     align-content: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
 }
-.values{
+
+.values {
     position: relative;
     top: 55px;
     left: 600px;
     font-size: 16px;
     font-weight: 700;
 }
-h3, h4{
+
+h3,
+h4 {
     font-size: 20px;
     font-weight: 700;
 }
-h2{
+
+h2 {
     font-size: 36px;
     font-weight: 700;
 }
