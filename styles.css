@@ -388,3 +388,8 @@ footer {
 #marcheur {
     margin: 10px;
 }
+@media (max-width 480px){
+    ul{
+display: none;
+    }
+}

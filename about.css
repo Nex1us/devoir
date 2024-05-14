@@ -133,7 +133,7 @@ br {
     height: 350px;
     width: 100%;
     top: 250px;
-    left: 800px;
+    right: -700px;
     filter: brightness(105%) contrast(96%) saturate(74%) blur(0px) hue-rotate(347deg);
     border-radius: 4px 4px 4px 4px;
     box-shadow: 10px 10px 0 1px rgba(0, 0)
@@ -155,8 +155,8 @@ br {
 
 .values {
     position: relative;
-    top: 55px;
-    left: 600px;
+    top: 40px;
+    left: 800px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -170,4 +170,9 @@ h4 {
 h2 {
     font-size: 36px;
     font-weight: 700;
+}
+
+.tirer{
+font-weight: 700;
+    color: #fb2056;
 }
