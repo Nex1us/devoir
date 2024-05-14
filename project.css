@@ -120,3 +120,8 @@ button:hover {
     flex-wrap: wrap;
     margin: 49px;
 }
+.premier{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 60%;
+}
