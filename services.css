@@ -115,6 +115,7 @@ button:hover {
 .tirer {
     color: #fb2056;
     font-weight: 700;
+    font-size: 50px;
     height: 10px;
 }
 
@@ -241,14 +242,15 @@ h5 {
     flex-direction: column;
     flex-wrap: wrap;
     left: 700px;
-    top: 37px;
+bottom: 160px;
     width: 40%;
 }
-footer{
+
+footer {
     background-image: url(./images/footer.png);
     background-size: cover;
     background-position: bottom;
     height: 20vh;
     position: relative;
-bottom: 0px;
+    bottom: 0px;
 }
