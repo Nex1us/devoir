@@ -48,14 +48,13 @@ h1 {
 
 }
 
-
-#main {
-
-    display: flex;
-    position: absolute;
-    background-color: grey;
-
-
+header{
+    background-color: rgba(0, 0, 0, 0.473);
+    background-image: url(./images/fond-page3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    height: 100vh;
 }
 
 ul {
@@ -156,4 +155,63 @@ h3{
     top: 393px;
     width: 50%;
     left: 700px;
+}
+.sport{
+    display: inline;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    top: 500px;
+    height: 408px;
+    padding: 80px;
+}
+#lac,#ski {
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: #191919;
+}
+.ttext{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    top: 500px;
+    width: 50%;
+}
+.qtext{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    top: 393px;
+    width: 50%;
+    left: 700px;
+}
+.trois{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 500px;
+    width: 40%;
+}
+.classe{
+    justify-content: flex-start;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+h5{
+    position: relative;
+ justify-content: center;
+ align-items: center;
+ left: 250px;
+ font-size: 34px;
 }

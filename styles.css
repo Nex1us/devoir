@@ -7,7 +7,9 @@ body {
     text-decoration: none;
     color: white;
 }
-
+.conteneur{
+height: 100%;
+}
 
 .haut {
     display: flex;
@@ -26,7 +28,12 @@ body {
 }
 
 header {
-    background-color: var(#191919);
+    background-color: rgba(0, 0, 0, 0.473);
+    background-image: url(./images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    height: 100vh;
 }
 
 h1,
@@ -62,14 +69,6 @@ br {
     top: 200px;
 }
 
-#main {
-
-    display: flex;
-    position: fixed;
-    background-color: grey;
-    height: 100%;
-    
-}
 
 ul {
     display: flex;
@@ -291,9 +290,7 @@ p {
     left: 20px;
 }
 
-.second {
-    display: flex;
-}
+
 
 #bg {
     display: block;
