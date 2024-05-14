@@ -2,11 +2,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
-    height: 150vh;
+    height: 100vh;
 }
-a{
-    text-decoration: white;
+a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 1rem;
 }
+
 .haut {
     display: flex;
     justify-content: space-around;
@@ -23,9 +28,6 @@ a{
 
 }
 
-header {
-    background-color: var(#191919);
-}
 
 h1,
 .gift {
@@ -52,7 +54,7 @@ h1 {
 
 header{
     background-color: rgba(0, 0, 0, 0.473);
-    background-image: url(./images/hero-bg.jpg);
+    background-image: url(./images/fond-page4.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: color;
