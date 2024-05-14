@@ -48,7 +48,7 @@ h1 {
 
 }
 
-header{
+header {
     background-color: rgba(0, 0, 0, 0.473);
     background-image: url(./images/fond-page3.jpg);
     background-position: center;
@@ -109,109 +109,146 @@ button:hover {
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 500px;
+    top: 25à0px;
 }
 
 .tirer {
     color: #fb2056;
+    font-weight: 700;
+    height: 10px;
 }
-h2{
+
+h2 {
     font-size: 34px;
 }
-.trips{
+
+.trips {
     display: inline;
     position: relative;
     justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    top: 500px;
+    top: 250px;
     height: 408px;
     padding: 80px;
 }
-#rondo, #montagne {
+
+#rondo,
+#montagne {
     margin: 10px;
 }
-h3{
+
+h3 {
     font-size: 18px;
     font-weight: 700;
 }
-.utext{
+
+.utext {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    top: 500px;
+    top: 250px;
     width: 50%;
 }
-.dtext{
+
+.dtext {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    top: 393px;
+    top: 143px;
     width: 50%;
     left: 700px;
 }
-.sport{
+
+.sport {
     display: inline;
     position: relative;
     justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    top: 500px;
+    top: 250px;
     height: 408px;
     padding: 80px;
 }
-#lac,#ski {
+
+#lac,
+#ski {
     margin: 10px;
     box-sizing: border-box;
     box-shadow: #191919;
 }
-.ttext{
+
+.ttext {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    top: 500px;
+    top: 250px;
     width: 50%;
 }
-.qtext{
+
+.qtext {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    top: 393px;
+    top: 143px;
     width: 50%;
     left: 700px;
 }
-.trois{
+
+.trois {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-    top: 500px;
+    top: 250px;
     width: 40%;
 }
-.classe{
+
+.classe {
     justify-content: flex-start;
     position: relative;
     flex-direction: column;
     flex-wrap: nowrap;
 }
-h5{
+
+h5 {
     position: relative;
- justify-content: center;
- align-items: center;
- left: 250px;
- font-size: 34px;
+    justify-content: center;
+    align-items: center;
+    left: 250px;
+    font-size: 34px;
+}
+
+.quatre {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: 700px;
+    top: 37px;
+    width: 40%;
+}
+footer{
+    background-image: url(./images/footer.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 20vh;
+    position: relative;
+bottom: 0px;
 }
