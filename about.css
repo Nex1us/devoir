@@ -5,7 +5,8 @@ body {
     height: 150vh;
 }
 a{
-    text-decoration: white;
+    text-decoration: none;
+    color: white;
 }
 .haut {
     display: flex;
@@ -52,7 +53,7 @@ h1 {
 
 header{
     background-color: rgba(0, 0, 0, 0.473);
-    background-image: url(./images/hero-bg.jpg);
+    background-image:url(./images/fond-ecran-page2.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: color;
