@@ -155,7 +155,7 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    top: 250px;
+    top: 257px;
     width: 50%;
 }
 
@@ -196,7 +196,7 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    top: 250px;
+    top: 261px;
     width: 50%;
 }
 
@@ -215,9 +215,9 @@ h3 {
 .trois {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     top: 250px;
     width: 40%;
@@ -243,9 +243,9 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    left: 700px;
+    left: 760px;
 bottom: 160px;
     width: 40%;
 }
