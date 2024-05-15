@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
-    height: 150vh;
 }
 a{
     text-decoration: none;
@@ -106,16 +105,20 @@ button:hover {
 }
 
 article {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
     margin: 49px;
 }
+#un{
+ display: flex;
+}
+.cascade, .Click{
+    max-width: 40%;
+}
 
-.mission {
-    display: inline;
-    position: relative;
-    top: 500px;
+#deux{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 p {
@@ -129,23 +132,6 @@ br {
     max width: 100%;
 }
 
-.cascade {
-    display: flex;
-    position: relative;
-    height: 350px;
-    width: 100%;
-    top: 250px;
-    right: -700px;
-    filter: brightness(105%) contrast(96%) saturate(74%) blur(0px) hue-rotate(347deg);
-    border-radius: 4px 4px 4px 4px;
-    box-shadow: 10px 10px 0 1px rgba(0, 0)
-}
-
-.exp {
-    position: relative;
-    top: 300px;
-    width: 55%;
-}
 
 .classe {
     display: flex;
@@ -155,13 +141,6 @@ br {
     flex-direction: column;
 }
 
-.values {
-    position: relative;
-    top: 40px;
-    left: 800px;
-    font-size: 16px;
-    font-weight: 700;
-}
 
 h3,
 h4 {
@@ -177,4 +156,5 @@ h2 {
 .tirer{
 font-weight: 700;
     color: #fb2056;
+    width: 100%;
 }
