@@ -126,3 +126,15 @@ button:hover {
     flex-wrap: nowrap;
     width: 60%;
 }
+#deux{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.bateau{
+    width: 25%;
+}
+.tirer{
+    color: #fb2056;
+    font-weight: bold;
+}

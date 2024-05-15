@@ -4,16 +4,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
     height: 100vh;
 }
-
-a {
-    color: #ffffff;
+a{
     text-decoration: none;
-    padding: 16px;
-    font-weight: 700;
-    font-size: 1rem;
+    color: white;
 }
-
-
 .haut {
     display: flex;
     justify-content: space-around;
@@ -246,7 +240,7 @@ h5 {
     flex-direction: row;
     flex-wrap: wrap;
     left: 760px;
-bottom: 160px;
+bottom: 144px;
     width: 40%;
 }
 
