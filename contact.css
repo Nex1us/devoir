@@ -168,11 +168,12 @@ p {
 }
 
 footer {
-    display: flex;
+    background-image: url(./images/footer.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 20vh;
     position: relative;
-    right: 100px;
-    width: 50px;
-    bottom: -650px;
+    bottom: 0px;
 }
 
 #mess {

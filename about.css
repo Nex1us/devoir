@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
+    height: 100vh;
 }
 a{
     text-decoration: none;
@@ -110,9 +111,11 @@ article {
 }
 #un{
  display: flex;
+ justify-content: center;
+ align-content: space-between;
 }
 .cascade, .Click{
-    max-width: 40%;
+    max-width: 60%;
 }
 
 #deux{
@@ -157,4 +160,12 @@ h2 {
 font-weight: 700;
     color: #fb2056;
     width: 100%;
+}
+footer {
+    background-image: url(./images/footer.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 20vh;
+    position: relative;
+    bottom: 0px;
 }
