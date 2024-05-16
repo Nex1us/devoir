@@ -38,15 +38,40 @@ button{
 }
 
 @media (max-width:1024px) {
-    .img {
-        width: 90%;
-    }
+    header {
+        width: 100%;
 
+    }
+    form{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+.un{
+    width: 20%;
+    height: 20%;
+
+}
+
+.deux{
+    position: relative;
+    width: 20%;
+    height: 20%;
+    left: 500px;
+}
+footer{
+    width: 100%;
+}
+.icone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 }
 
 @media (max-width:768px) {
     .img {
-        width: 40%;
+        width: 100%;
     }
 }
 
@@ -55,11 +80,12 @@ button{
         flex-direction: column;
     }
     img {
-        width: 90%;
+        width: 40%;
     }
     ul {
         flex-direction: column;
         display: none;
+        align-content: flex-start;
     }
     article{
         flex-direction: column;
@@ -100,7 +126,6 @@ h1,
     justify-content: center;
     align-items: center;
     align-content: space-around;
-    top: 200px;
     color: #ffffff;
 }
 
@@ -165,14 +190,10 @@ button:hover {
 .send {
     text-transform: uppercase;
     bottom: -70px;
-    right: 240px;
+
 }
 
-section {
-    display: flex;
-    position: relative;
-    top: 500px;
-}
+
 
 .un {
     position: relative;
@@ -180,15 +201,15 @@ section {
     text-align: center;
     gap: 3rem;
     flex-direction: column;
-    bottom: 300px;
+    margin: 0;
+    padding: 0;
+
 }
 
 .deux {
     position: relative;
-    justify-content: flex-end;
-    bottom: 275px;
-    left: 250px;
-    margin: 0px 62px 0px 62px;
+    justify-content: center;
+margin: 0;
 
 }
 
@@ -233,19 +254,20 @@ p {
 
 }
 
-footer {
+ footer {
     background-image: url(./images/footer.png);
     background-size: cover;
     background-position: bottom;
     height: 20vh;
     position: relative;
-    bottom: -400px;
+    top: 200px;
+ 
 
 }
 
 textarea {
     position: relative;
-    left: 50px;
+
     width: 300px;
     height: 100px;
 }
@@ -255,6 +277,12 @@ i:hover{
 }
 .icone{
     position: relative;
-    bottom: 150px;
-    right: 150px;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
