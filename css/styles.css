@@ -28,25 +28,15 @@ position:relative;
 
 }
 
-/* header {
+ header {
     background-color: rgba(0, 0, 0, 0.473);
     background-image: url(./images/hero-bg.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: color;
-    position: fixed;
     height: 100%;
     width: 100%;
-} */
-.hero{
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: color;
-    background-color: rgba(0, 0, 0, 0.473);
-    position: fixed;
-    height: 100%;
-    width: 100%;
-}
+} 
 
 h1,
 .gift {
@@ -164,7 +154,7 @@ button:hover {
 .sandler {
     display: flex;
     position: absolute;
-    top: 1200px;
+    top: 950px;
     height: 30%;
     width: 100%;
     background-color: lightgrey;
@@ -306,13 +296,6 @@ p {
     height: 85vh;
 }
 
-#explore {
-    position: relative;
-    top: 2000px;
-    left: 800px;
-    color: white !important;
-}
-
 .world,
 .explore {
     color: white;
@@ -342,8 +325,8 @@ footer {
     background-size: cover;
     background-position: bottom;
     height: 20vh;
-
-    bottom: -00px;
+position: relative;
+    bottom: -3000px;
 }
 
 
@@ -361,7 +344,7 @@ footer {
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    top: 2500px;
+    top: 2800px;
     height: 150%;
 }
 
@@ -400,3 +383,13 @@ h4{
 #marcheur {
     margin: 10px;
 }
+.explore{
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    top: 1500px;
+}
+
