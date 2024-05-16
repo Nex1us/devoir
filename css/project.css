@@ -12,12 +12,10 @@ body{
     margin: 0;
     padding: 0;
 }
-a {
-    color: white;
+a{
     text-decoration: none;
-    padding: 16px;
-    font-weight: 700;
-    font-size: 1rem;
+    color: white;
+    font-weight: 400;
 }
 
 .haut {
@@ -30,7 +28,43 @@ a {
     font-style: normal;
 
 }
+@media (max-width:1024px) {
+    .img {
+        width: 90%;
+    }
 
+}
+
+@media (max-width:768px) {
+    .img {
+        width: 40%;
+    }
+}
+
+@media (max-width:480px) {
+    div {
+        flex-direction: column;
+    }
+    img {
+        width: 90%;
+    }
+    ul {
+        flex-direction: column;
+        display: none;
+    }
+    article{
+        flex-direction: column;
+        display: flex;
+    }
+
+    button {
+        display: flex;
+        position: absolute;
+        color: white ;
+        background-color: #fb2056;
+        border: #fb2056;
+    }
+} 
 .logo {
     position: relative;
 
