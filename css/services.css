@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
     height: 100vh;
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -27,9 +28,6 @@ a{
 
 }
 
-header {
-    background-color: var(#191919);
-}
 
 h1,
 .gift {
@@ -57,6 +55,7 @@ header {
     background-size: cover;
     background-blend-mode: color;
     height: 100vh;
+    width: 100%;
 }
 
 ul {
@@ -123,6 +122,7 @@ button:hover {
 
 h2 {
     font-size: 34px !important;
+    font-weight: 700 !important;
 }
 
 .trips {
@@ -133,7 +133,7 @@ h2 {
     flex-wrap: nowrap;
     top: 250px;
     height: 408px;
-    padding: 80px;
+
 }
 
 #rondo,
@@ -142,7 +142,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 700;
 }
 
@@ -177,7 +177,7 @@ bottom: 78px;
     flex-wrap: nowrap;
     top: 250px;
     height: 408px;
-    padding: 80px;
+
 }
 
 #lac,
@@ -187,16 +187,6 @@ bottom: 78px;
     box-shadow: #191919;
 }
 
-.ttext {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    top: 261px;
-    width: 50%;
-}
 
 .qtext {
     position: relative;
@@ -205,9 +195,9 @@ bottom: 78px;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    top: 143px;
+top: 200px;
     width: 50%;
-    left: 700px;
+
 }
 
 .trois {
@@ -217,7 +207,7 @@ bottom: 78px;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    top: 250px;
+    top: 570px;
     width: 40%;
 }
 
@@ -227,13 +217,15 @@ bottom: 78px;
     flex-direction: column;
     flex-wrap: nowrap;
 }
-
+h4{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
 h5 {
     position: relative;
-    justify-content: center;
-    align-items: center;
-    left: 250px;
-    font-size: 24px;
+    display: flex;
+
+    font-size: 24px !important;
 }
 
 .quatre {
@@ -244,7 +236,7 @@ h5 {
     flex-direction: row;
     flex-wrap: wrap;
     left: 760px;
-bottom: 97px;
+top: 325px;
     width: 40%;
 }
 
@@ -254,8 +246,10 @@ footer {
     background-position: bottom;
     height: 20vh;
     position: relative;
+    top: 400px;
     width: 100%;
 }
 h2, h3, h4, h5, h6{
     font-family: "Montserrat", sans-serif;
+    font-weight: 700 !important;
 }
