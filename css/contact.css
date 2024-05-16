@@ -54,10 +54,12 @@ button{
 }
 
 .deux{
-    position: relative;
+display: flex;
+align-items: flex-end;
+align-content: flex-end;
     width: 20%;
     height: 20%;
-    left: 500px;
+
 }
 footer{
     width: 100%;
@@ -81,33 +83,41 @@ footer{
     }
     header {
         width: 100%;
+
     }
-        form{
-            width: 40%;
-            display: flex;
-            flex-direction: column;
-        }
-    .un{
-        width: 20%;
-        height: 20%;
-    
+    ul {
+        flex-direction: column;
+        display: flex;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
-    
-    .deux{
-        position: relative;
-        width: 20%;
-        height: 20%;
-        left: 500px;
-    }
-    footer{
-        width: 100%;
-    }
-    .icone{
+    h2{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
     }
-    
+    .un{
+        flex-direction: column;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 20%;
+    }
+.deux{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    button {
+        display: flex;
+        position: absolute;
+        color: white ;
+        background-color: #fb2056;
+        border: #fb2056;
+    }
+    footer{
+        width: 100%;
+    }
 } 
 
 .haut {
@@ -241,13 +251,17 @@ h6 {
 input {
     display: block;
     position: relative;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin: 50px;
+margin: 10px;
     height: 50px;
-    width: 500px;
+    width:30%;
 }
-
+textarea{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 h3,
 h4,
 h5,
@@ -289,6 +303,7 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-content: space-evenly;
 }
 .face{
     width: 32px;
