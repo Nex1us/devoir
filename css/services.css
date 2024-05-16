@@ -70,7 +70,7 @@ ul {
 li {
     position: relative;
     align-items: center;
-    margin: auto;
+    margin: 0;
     font-weight: 700;
     font-size: 16px;
     font-size: 1rem;
