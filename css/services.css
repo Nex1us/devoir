@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -43,6 +45,7 @@ h1,
 
 h1 {
     font-size: 64px;
+    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -229,7 +232,7 @@ h5 {
     justify-content: center;
     align-items: center;
     left: 250px;
-    font-size: 34px;
+    font-size: 24px;
 }
 
 .quatre {
@@ -251,4 +254,7 @@ footer {
     height: 20vh;
     position: relative;
     bottom: 0px;
+}
+h2, h3, h4, h5{
+    font-family: "Montserrat", sans-serif;
 }

@@ -8,14 +8,14 @@ body {
     color: white;
 }
 
-ul {
-    display: flex;
+.action{
+    position: relative;
+    right: -50px;
 }
-
 div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     gap: 2rem;
     margin: 2rem;
@@ -27,8 +27,11 @@ img {
 }
 
 button{
-    display: none;
-    text-decoration: none;
+    display: flex;
+    position: absolute;
+    color: white ;
+    background-color: #fb2056;
+    border: #fb2056;
 }
 
 @media (max-width:1024px) {
@@ -63,7 +66,7 @@ button{
         background-color: #fb2056;
         border: #fb2056;
     }
-}
+} 
 
 .haut {
     display: flex;
@@ -73,7 +76,7 @@ button{
     font-size: 16px;
     font-weight: 700;
     font-style: normal;
-
+margin: 0;
 }
 
 .logo {
@@ -105,25 +108,25 @@ h1 {
 
 header {
     background-color: rgba(0, 0, 0, 0.473);
-    background-image: url(./images/hero-bg.jpg);
+    background-image: url(./devoir/images/photo-haut-page5.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: color;
-    height: 100vh;
+    height: 80vh;
 }
 ul {
     display: flex;
     gap: 0.5rem;
     list-style-type: none;
     justify-content: flex-end;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 li {
     position: relative;
-    align-items: center;
+    justify-content: flex-start;
     margin: auto;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 16px;
     font-size: 1rem;
     padding: 0px 16px 0px 16px;
@@ -238,4 +241,10 @@ textarea {
     left: 50px;
     width: 300px;
     height: 100px;
+}
+.facebook{
+height: 25px;
+width: 25px;
+justify-content: center;
+align-content: center;
 }
