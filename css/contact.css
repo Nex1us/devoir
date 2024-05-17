@@ -134,9 +134,8 @@ footer{
 margin: 0;
 }
 
-.logo {
-    position: relative;
-
+.logo{
+    width: 10%;
 }
 
 h1,
@@ -178,7 +177,7 @@ ul {
 
 li {
     position: relative;
-    justify-content: flex-start;
+    align-items: center;
     margin: auto;
 
     font-size: 16px;
