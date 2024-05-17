@@ -347,12 +347,7 @@ p {
     left: 20px;
 }
 
-#destination {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+
 
 footer {
     background-image: url(./images/footer.png);
@@ -366,11 +361,14 @@ footer {
 
 .destination {
 background-color: lightgrey;
+display: flex;
+position: relative;
+flex-direction: row;
+flex-wrap: wrap;
 }
 
 .tours {
-    position: relative;
-    right: 500px;
+
 }
 
 h4 {
@@ -382,11 +380,9 @@ h4 {
 
 .velo {
     display: flex;
-    position: relative;
     flex-direction: column;
     height: 224px;
     width: 359px;
-    bottom: 300px;
 }
 
 #skyeur {
@@ -394,12 +390,10 @@ h4 {
 }
 
 .marche {
-    position: relative;
     flex-direction: column;
     height: 224px;
     width: 359px;
-    left: 400px;
-    bottom: 520px;
+
 }
 
 #marcheur {
