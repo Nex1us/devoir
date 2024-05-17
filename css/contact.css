@@ -12,8 +12,8 @@ a{
 }
 
 .action{
+
     position: relative;
-    right: -50px;
 }
 div {
     display: flex;
@@ -29,13 +29,24 @@ img {
     width: 15%;
 }
 
-button{
-    display: flex;
-    position: absolute;
-    color: white ;
+button {
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     background-color: #fb2056;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 0.875rem;
     border: #fb2056;
-}
+} 
+
 
 @media (max-width:1024px) {
     header {
@@ -135,7 +146,11 @@ margin: 0;
 }
 
 .logo{
-    width: 10%;
+
+        position: relative;
+    width: 150px;
+    height: 42px;
+    
 }
 
 h1,

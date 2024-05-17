@@ -1,13 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.noto-sans-body {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-width: 100vw;
-  }
+
 body{
     margin: 0;
     padding: 0;
@@ -28,46 +22,11 @@ a{
     font-style: normal;
 
 }
-@media (max-width:1024px) {
-    .img {
-        width: 90%;
-    }
 
-}
-
-@media (max-width:768px) {
-    .img {
-        width: 40%;
-    }
-}
-
-@media (max-width:480px) {
-    div {
-        flex-direction: column;
-    }
-    img {
-        width: 90%;
-    }
-    ul {
-        flex-direction: column;
-        display: none;
-    }
-    article{
-        flex-direction: column;
-        display: flex;
-    }
-
-    button {
-        display: flex;
-        position: absolute;
-        color: white ;
-        background-color: #fb2056;
-        border: #fb2056;
-    }
-} 
 .logo {
     position: relative;
-
+width: 150px;
+height: 42px;
 }
 
 
@@ -151,9 +110,6 @@ button:hover {
 
 }
 
-/* section{
-    margin: 0px;
-} */
 .adventure {
     display: inline;
     position: relative;
@@ -192,12 +148,7 @@ button:hover {
     font-weight: bold;
 }
 
-/* #trois {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 49px;
-} */
+
 #ad {
     font-size: 14px;
 }
@@ -206,10 +157,7 @@ button:hover {
     font-size: 34px;
 }
 
-/* #quatre{
-    display: flex;
-    flex-wrap: nowrap;
-} */
+
 .ski {
     margin: 0;
     width: 20%;
@@ -223,6 +171,9 @@ footer {
     position: relative;
     bottom: -400px;
 
+}
+h1{
+    font-size: 64px;
 }
 h1, h2{
     font-family: "Montserrat", sans-serif;
@@ -266,4 +217,69 @@ li, p{
 }
 .quatre{
     margin: 10px;
+}
+body {
+    margin: 0;
+}
+ a {text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+
+img {
+    width: 15%;
+}
+.aventure{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+button{
+    display: none;
+}
+
+@media (max-width:1024px) {
+    img {
+        width: 30%;
+           
+    }
+
+}
+
+@media (max-width:768px) {
+    .img {
+        width: 40%;
+    }
+}
+
+@media (max-width:480px) {
+    div {
+        flex-direction: column;
+    }
+    img {
+        width: 90%;
+    }
+    ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    button {
+        display: inline;
+    }
 }

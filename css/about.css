@@ -116,7 +116,7 @@ article {
  align-content: space-between;
 }
 .cascade, .Click{
-    max-width: 60%;
+    max-width: 40%;
 }
 
 #deux{
@@ -169,4 +169,65 @@ footer {
     height: 20vh;
     position: relative;
     bottom: 0px;
+}
+.machun{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+@media (max-width:1024px) {
+    img {
+        width: 30%;
+    }
+
+}
+
+@media (max-width:768px) {
+    .img {
+        width: 60%;
+    }
+    ul{
+        display: inline;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    header{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        zoom: 0.5;
+        background-size: auto;
+        justify-content: center;
+        display: flex;
+    }
+    .cascade{
+        width: 100%;
+        height: 100%;
+    }
+    .machun{
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media (max-width:480px) {
+    div {
+        flex-direction: column;
+    }
+    img {
+        width: 90%;
+    }
+    ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    button {
+        display: inline;
+    }
 }
