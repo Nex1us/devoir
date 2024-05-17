@@ -184,6 +184,11 @@ footer {
     flex-wrap: nowrap;
 
 }
+.cascade{
+    position: relative;
+    bottom: 200px;
+    left: 600px;
+}
 
 @media (max-width:1024px) {
     img {
@@ -237,6 +242,8 @@ align-items: center ;
     .cascade{
         height: 100%;
         width: 100%;
+        bottom: 0px;
+        left: 0px;
     }
 }
 
@@ -257,9 +264,7 @@ align-items: center ;
         justify-content: flex-start;
         align-items: flex-start;
     }
-}
-
-button {
-    display: inline;
-}
+    h1{
+        margin-left: 40px;
+    }
 }
