@@ -298,4 +298,7 @@ img {
     button {
         display: inline;
     }
+    footer{
+        zoom: 0.7;
+    }
 }
