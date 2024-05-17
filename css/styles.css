@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
     height: 100vw;
+    background-color: lightgrey;
 }
 
 main {
@@ -18,10 +19,10 @@ main {
     width: 100%;
     height: 100%;
 }
-.milieu{
+/* .milieu{
     position: relative;
 bottom: 50px;
-}
+} */
 a {
     text-decoration: none;
     color: white;
@@ -58,8 +59,15 @@ header {
     height: 60%;
     width: 100%;
 }
-
-h1,
+#colour{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* h1,
 .gift {
     position: relative;
     display: flex;
@@ -70,7 +78,7 @@ h1,
     align-content: space-around;
     top: 200px;
     color: #ffffff;
-}
+} */
 
 h1 {
     font-size: 24px;
@@ -140,7 +148,7 @@ button:hover {
 
 }
 
-.learn {
+/* .learn {
     unicode-bidi: isolate;
     position: absolute;
     margin: auto;
@@ -151,7 +159,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     align-content: center;
-}
+} */
 
 
 
@@ -309,13 +317,7 @@ p {
     width: 100%;
     height: 30%;
 }
-.mid{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
+
 .dire{
     color: white;
 
@@ -325,20 +327,15 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    bottom: 45px;
+position: relative;
+top: 100px;
+
+
 }
 #elearn {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-
+width: 50%;
+position: relative;
+top: 100px;
 }
 
 .learnn {
@@ -351,11 +348,10 @@ p {
 
 footer {
     background-image: url(./images/footer.png);
-    background-size: cover;
-    background-attachment: fixed;
+    background-position: bottom;
     height: 20vh;
-
-    top: 780px;
+position: relative;
+top: 400px;
 }
 
 
