@@ -109,8 +109,8 @@ button:hover {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    top: 250px;
+
+
 }
 
 .tirer {
@@ -124,17 +124,21 @@ h2 {
     font-size: 34px !important;
     font-weight: 700 !important;
 }
-
+.un{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    
+    
+}
 .trips {
-    display: inline;
-    position: relative;
-    justify-content: center;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     flex-wrap: nowrap;
-    top: 250px;
-    height: 408px;
 
 }
+
 
 #rondo,
 #montagne {
@@ -147,39 +151,36 @@ h3 {
 }
 
 .utext {
-    position: relative;
+    /* position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    top: 257px;
+    top: 257px; */
     width: 50%;
 }
 
 .dtext {
-    position: relative;
+    /* position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
 bottom: 78px;
-    width: 50%;
-    left: 700px;
+left: 700px; */
+width: 50%;
 }
-
-.sport {
-    display: inline;
-    position: relative;
-    justify-content: center;
+.deux{
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    top: 250px;
-    height: 408px;
 
 }
-
+.sport{
+    width: 50%;
+}
 #lac,
 #ski {
     margin: 10px;
@@ -189,28 +190,21 @@ bottom: 78px;
 
 
 .qtext {
-    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
-top: 200px;
-    width: 50%;
+width: 50%;
+
 
 }
-
-.trois {
-    position: relative;
+.sos{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    top: 570px;
-    width: 40%;
 }
-
+.trois {
+display: inline;
+    width: 40%;
+} 
 .classe {
     justify-content: flex-start;
     position: relative;
@@ -228,17 +222,10 @@ h5 {
     font-size: 24px !important;
 }
 
-.quatre {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-    left: 760px;
-top: 325px;
+ .quatre {
+display: inline;
     width: 40%;
-}
+} 
 
 footer {
     background-image: url(./images/footer.png);

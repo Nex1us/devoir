@@ -217,7 +217,7 @@ button:hover {
 
 }
 
-.aun {
+/* .aun {
     display: flex;
     flex-direction: column;
     background-color: lightgrey;
@@ -229,11 +229,11 @@ button:hover {
     top: 1190px;
 
 }
-
+ */
 
 
 #photo {
-    position: relative;
+    /* position: relative;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -241,7 +241,11 @@ button:hover {
     margin-left: 0px;
     zoom: 0.8;
     left: 180px;
-    bottom: 200px;
+    bottom: 200px; */
+    display: flex;
+background-color: lightgrey;
+    flex-direction: row;
+
 
 }
 
@@ -257,7 +261,7 @@ button:hover {
 
 .photo,
 #photo {
-    background-color: rgba(0, 0, 0, 0.479);
+    /* background-color: rgb(0, 0, 0); */
     border: solid 12px;
     background-position: right;
     background-position: bottom;
@@ -442,4 +446,7 @@ h3{
 }
 h1, h2, h3{
     font-family: "Montserrat", sans-serif;
+}
+.banner{
+    width: 100%;
 }
