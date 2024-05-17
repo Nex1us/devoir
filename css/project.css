@@ -212,7 +212,7 @@ button:hover {
 } */
 .ski {
     margin: 0;
-    width: 25%;
+    width: 20%;
 }
 
 footer {
@@ -230,4 +230,40 @@ h1, h2{
 li, p{
     font-family: "Noto Sans", sans-serif;
     font-weight: 0;
+}
+.sun{
+    margin: 10px;
+}
+.sdeux{ 
+    margin: 10px;
+}
+.strois{
+    margin: 10px;
+}
+.sq{
+    margin: 10px;
+}
+.sc{
+    margin: 10px;
+}
+.ss{ 
+    margin: 10px;
+}
+.ssept{
+    margin: 10px;
+}
+.shuit{
+    margin: 10px;
+}
+.un{
+    margin: 10px;
+}
+.deux{ 
+    margin: 10px;
+}
+.trois{
+    margin: 10px;
+}
+.quatre{
+    margin: 10px;
 }

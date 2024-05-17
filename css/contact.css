@@ -57,8 +57,10 @@ button{
 display: flex;
 align-items: flex-end;
 align-content: flex-end;
+position: relative !important;
     width: 20%;
     height: 20%;
+
 
 }
 footer{
@@ -107,6 +109,7 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin:0;
 }
     button {
         display: flex;
@@ -216,10 +219,8 @@ button:hover {
 
 .un {
     position: relative;
-    align-items: center;
-    text-align: center;
-    gap: 3rem;
-    flex-direction: column;
+align-content: flex-start;
+align-items: flex-start;
     margin: 0;
     padding: 0;
 
@@ -227,8 +228,8 @@ button:hover {
 
 .deux {
     position: relative;
-    justify-content: center;
-margin: 0;
+
+margin-left: 500px;
 
 }
 
@@ -303,7 +304,7 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: space-evenly;
+
 }
 .face{
     width: 32px;
