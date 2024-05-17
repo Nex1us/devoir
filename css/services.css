@@ -235,6 +235,12 @@ h2, h3, h4, h5, h6{
     font-family: "Montserrat", sans-serif;
     font-weight: 700 !important;
 }
+#br{
+    color: #fb2056;
+    font-weight: bold;
+    height: 5px;
+
+}
 
 @media (max-width:1024px) {
     .img {
@@ -246,6 +252,11 @@ h2, h3, h4, h5, h6{
 @media (max-width:768px) {
     .img {
         width: 40%;
+        
+    }
+    footer{
+        zoom: 0.6;
+        width: 100%;
     }
 }
 
@@ -264,8 +275,19 @@ h2, h3, h4, h5, h6{
         align-items: flex-start;
         gap: 0;
     }
+    .sos{
+zoom: 0.9;
+    margin: 0px;
+}
+.quatre{
+    margin-left: 0px !important;
+}
+.trois{
+    margin: 0px;
+}
 footer{
-    zoom: 0.58;
+
+    width: 100% ;
 }
     button {
         display: inline;

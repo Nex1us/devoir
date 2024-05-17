@@ -294,16 +294,7 @@ img {
         align-items: flex-start;
         gap: 0;
     }
-.sos{
-    zoom: 0.4;
-    margin: 0px;
-}
-.quatre{
-    margin-left: 0px !important;
-}
-.trois{
-    margin: 0px;
-}
+
     button {
         display: inline;
     }
