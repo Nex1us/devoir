@@ -460,42 +460,63 @@ left: 500px;
 }
 
 @media (max-width:480px) {
-    div {
-        flex-direction: column;
-    }
-    img {
-        width: 90%;
-    }
-    ul {
-        flex-direction: column;
-        display: flex;
-        align-content: flex-start;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 0;
-    }
-    #colour{
-        top: 0px;
-        zoom: 0.6;
-    }
 
-    button {
-        display: inline;
+    img {
+        width: 30%;
     }
-    .mid{
-        zoom: 0.6;
-    }
-    .velo{
-        display: flex;
-        width: 100%;
-        zoom: 0.8;
-    }
-    .marche{
-        display: flex;
-        width: 100%;
-        zoom: 0.8;
-    }
-    .up{
-        zoom: 0.8;
-    }
+header{
+width: 100%;
+zoom: 0.7;
+}
+#upcoming{
+left: 500px;
+
+} 
+ul{
+    zoom: 0.6;
+}
+#colour{
+    zoom: 0.3;
+}
+#hiking{
+    width: 100%;
+}
+#walk{
+    width: 100%;
+}
+.un{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    zoom: 0.3;
+}
+.destination{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+zoom: 1;
+}
+.mid{
+    zoom: 0.3;
+}
+.velo{
+
+    width: 100%;
+    zoom: 0.8;
+}
+.marche{
+
+    width: 100%;
+    zoom: 0.8;
+}
+.up{
+    zoom: 0.5;
+}
+footer{
+    top: 380px;
+    zoom: 0.6;
+}
+
 }
