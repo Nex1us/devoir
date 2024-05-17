@@ -158,19 +158,17 @@ button:hover {
 
 
 .un {
-    display: inline;
+    /* display: flex;
     margin: 0;
     padding: 0;
     justify-content: center;
     align-items: flex-start;
-    width: 100%;
+    width: 100%; */
     color: lightgrey;
     background-color: lightgrey;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
 }
 
 .sandler {
@@ -243,28 +241,30 @@ button:hover {
     left: 180px;
     bottom: 200px; */
     display: flex;
+    flex-direction: column;
 background-color: lightgrey;
-    flex-direction: row;
-
-
+width: 30%;
 }
 
 .photo {
-    position: relative;
+    /* position: relative;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     margin: auto;
-    zoom: 0.8;
-    bottom: 200px;
+    zoom: 0.8; */
+    display: flex;
+    flex-direction: column;
+background-color: lightgrey;
+width: 30%;
 }
 
 .photo,
 #photo {
     /* background-color: rgb(0, 0, 0); */
     border: solid 12px;
-    background-position: right;
-    background-position: bottom;
+    /* background-position: right;
+    background-position: bottom; */
 
 }
 
@@ -280,13 +280,15 @@ background-color: lightgrey;
 }
 
 .tever {
-    display: inline;
+    /* display: inline;
     position: relative;
     right: 230px;
-    top: 160px;
+    top: 160px; */
     color: black;
 }
-
+#everest{
+    color: black;
+}
 p {
     color: rgba(0, 0, 0, 0.678);
     width: 300px;
@@ -301,10 +303,7 @@ p {
 }
 
 .mount {
-    display: inline;
-    position: relative;
-    right: 360px;
-    top: 160px;
+
     color: black;
 }
 
