@@ -4,11 +4,13 @@ body {
     font-family: 'Noto Sans', sans-serif;
     height: 100vh;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
     font-weight: 400;
 }
+
 .haut {
     display: flex;
     justify-content: space-around;
@@ -52,9 +54,9 @@ h1 {
 }
 
 
-header{
+header {
     background-color: rgba(0, 0, 0, 0.473);
-    background-image:url(./images/fond-ecran-page2.jpg);
+    background-image: url(./images/fond-ecran-page2.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: color;
@@ -110,16 +112,16 @@ article {
 
     margin: 49px;
 }
-#un{
- display: flex;
- justify-content: center;
- align-content: space-between;
-}
-.cascade, .Click{
-    max-width: 40%;
+
+#un {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
 }
 
-#deux{
+
+
+#deux {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -157,11 +159,12 @@ h2 {
     font-weight: 700;
 }
 
-.tirer{
-font-weight: 700;
+.tirer {
+    font-weight: 700;
     color: #fb2056;
     width: 100%;
 }
+
 footer {
     background-image: url(./images/footer.png);
     background-size: cover;
@@ -170,7 +173,12 @@ footer {
     position: relative;
     bottom: 0px;
 }
-.machun{
+ .cascade,
+.Click {
+    width: 40%;
+} 
+
+.machun {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -185,33 +193,50 @@ footer {
 }
 
 @media (max-width:768px) {
-    .img {
+    /* img {
         width: 60%;
-    }
-    ul{
-        display: inline;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        align-content: flex-start;
-    }
+    } */
     header{
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
-    footer{
+h1{
+top: 0px;
+
+position: relative;
+justify-content: center;
+align-items: center;
+align-items: center ;
+}
+    ul {
+        flex-direction: column;
+        display: flex;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+
+    footer {
         width: 100%;
         zoom: 0.5;
         background-size: auto;
         justify-content: center;
         display: flex;
     }
-    .cascade{
+
+
+    .machun {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         width: 100%;
         height: 100%;
     }
-    .machun{
-        width: 60%;
-        height: 60%;
+    .cascade{
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -219,15 +244,22 @@ footer {
     div {
         flex-direction: column;
     }
+
     img {
         width: 90%;
     }
-    ul {
-        flex-direction: column;
-        display: none;
-    }
 
-    button {
-        display: inline;
+    ul {
+
+        flex-direction: column;
+        display: flex;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
+}
+
+button {
+    display: inline;
+}
 }
